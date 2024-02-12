@@ -145,6 +145,87 @@ div.graphics p{
 	position: relative;
 }
 
+
+/**TESTIMONIALS SECTION STYLES**/
+
 section.testimonials{
 	position: relative;
+	background-color: rgba(238, 232, 232);
+	padding: 90px 20px 50px;
+}
+
+.testimonials img{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.testimonials h2{
+	color: gray;
+	margin-bottom: 80px;
+}
+
+.personnel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 80px;
+}
+
+.testimonials h3{
+	margin: 20px 0 0;
+}
+
+.testimonials p{
+	line-height: 1.8;
+	font-weight: 500;
+	color: gray;
+}
+
+
+
+/**GALLERY SECTION STYLES**/
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery img{
+	width: 50%;
+}
+
+/**FOOTER STYLES**/
+
+footer{
+	background-color: rgb(22, 192, 192);
+	padding: 50px 20px;
+	text-align: center;
+}
+
+footer svg{
+	margin-bottom: 30px;
+}
+
+footer a{
+	color:rgb(7, 82, 82);
+	font-weight: 600;
+
+}
+
+footer .links-container{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 80px;
+}
+
+
+footer .social-media-icons{
+	display: flex;
+	justify-content: center;
+	gap: 40px;
 }
